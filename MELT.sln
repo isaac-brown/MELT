@@ -79,6 +79,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApplication", "sam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApplication.IntegrationTests", "samples\current\SampleWebApplication.IntegrationTests\SampleWebApplication.IntegrationTests.csproj", "{008667F2-0263-4A13-B9F2-BA10D948EBDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MELT.AutoFixture", "src\MELT.AutoFixture\MELT.AutoFixture.csproj", "{FBA3FB92-38F5-40EF-8FD5-2A12E566F9EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MELT.AutoFixture.Tests", "test\MELT.AutoFixture.Tests\MELT.AutoFixture.Tests.csproj", "{511CD899-EB15-4534-806A-DE82E6A6619B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -181,6 +185,14 @@ Global
 		{008667F2-0263-4A13-B9F2-BA10D948EBDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{008667F2-0263-4A13-B9F2-BA10D948EBDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{008667F2-0263-4A13-B9F2-BA10D948EBDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA3FB92-38F5-40EF-8FD5-2A12E566F9EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA3FB92-38F5-40EF-8FD5-2A12E566F9EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA3FB92-38F5-40EF-8FD5-2A12E566F9EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA3FB92-38F5-40EF-8FD5-2A12E566F9EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{511CD899-EB15-4534-806A-DE82E6A6619B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{511CD899-EB15-4534-806A-DE82E6A6619B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{511CD899-EB15-4534-806A-DE82E6A6619B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{511CD899-EB15-4534-806A-DE82E6A6619B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -216,6 +228,8 @@ Global
 		{E37446E1-7760-4AD0-B703-B635454E5B3C} = {E77E65BC-8A95-4113-BB22-BE56D6226157}
 		{975360DF-04D6-41AB-84EE-3AE5D7A5B2DA} = {F08BF453-6A58-486F-8D06-FF08A82D386B}
 		{008667F2-0263-4A13-B9F2-BA10D948EBDB} = {F08BF453-6A58-486F-8D06-FF08A82D386B}
+		{FBA3FB92-38F5-40EF-8FD5-2A12E566F9EB} = {49161A77-61F0-442B-8874-A5FF7D2368C2}
+		{511CD899-EB15-4534-806A-DE82E6A6619B} = {6EBCA070-1271-4575-85F7-A11FD455D64C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {954CCC12-511A-4435-AE51-C19A527D4654}
